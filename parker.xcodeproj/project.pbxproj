@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04250B891829DAF700C0AFA0 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04250B881829DAF700C0AFA0 /* SWRevealViewController.m */; };
+		04250B8B1829E20B00C0AFA0 /* search_black.png in Resources */ = {isa = PBXBuildFile; fileRef = 04250B8A1829E20B00C0AFA0 /* search_black.png */; };
+		04250B911829F52D00C0AFA0 /* SideBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04250B901829F52D00C0AFA0 /* SideBarViewController.m */; };
+		04250B931829F92900C0AFA0 /* search2.png in Resources */ = {isa = PBXBuildFile; fileRef = 04250B921829F92900C0AFA0 /* search2.png */; };
+		04250B951829FA1B00C0AFA0 /* car.png in Resources */ = {isa = PBXBuildFile; fileRef = 04250B941829FA1B00C0AFA0 /* car.png */; };
+		04250B971829FABE00C0AFA0 /* wolf-cartoon.png in Resources */ = {isa = PBXBuildFile; fileRef = 04250B961829FABE00C0AFA0 /* wolf-cartoon.png */; };
 		0469AF2E1828DB3D00DBF57A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0469AF2D1828DB3D00DBF57A /* Foundation.framework */; };
 		0469AF301828DB3D00DBF57A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0469AF2F1828DB3D00DBF57A /* CoreGraphics.framework */; };
 		0469AF321828DB3D00DBF57A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0469AF311828DB3D00DBF57A /* UIKit.framework */; };
@@ -15,12 +21,20 @@
 		0469AF3E1828DB3D00DBF57A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0469AF3D1828DB3D00DBF57A /* AppDelegate.m */; };
 		0469AF411828DB3D00DBF57A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0469AF3F1828DB3D00DBF57A /* Main.storyboard */; };
 		0469AF441828DB3D00DBF57A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0469AF431828DB3D00DBF57A /* ViewController.m */; };
-		0469AF461828DB3D00DBF57A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0469AF451828DB3D00DBF57A /* Images.xcassets */; };
 		0469AF4D1828DB3D00DBF57A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0469AF4C1828DB3D00DBF57A /* XCTest.framework */; };
 		0469AF4E1828DB3D00DBF57A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0469AF2D1828DB3D00DBF57A /* Foundation.framework */; };
 		0469AF4F1828DB3D00DBF57A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0469AF311828DB3D00DBF57A /* UIKit.framework */; };
 		0469AF571828DB3D00DBF57A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0469AF551828DB3D00DBF57A /* InfoPlist.strings */; };
 		0469AF591828DB3D00DBF57A /* parkerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0469AF581828DB3D00DBF57A /* parkerTests.m */; };
+		0469AF631828DB4B00DBF57A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0469AF621828DB4B00DBF57A /* CoreLocation.framework */; };
+		0469AF651828DB5300DBF57A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0469AF641828DB5300DBF57A /* QuartzCore.framework */; };
+		0469AF671828DB6100DBF57A /* MapBox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0469AF661828DB6100DBF57A /* MapBox.framework */; };
+		0469AF691828DBA600DBF57A /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0469AF681828DBA600DBF57A /* libsqlite3.dylib */; };
+		0469AF6B1828DBAB00DBF57A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0469AF6A1828DBAB00DBF57A /* libz.dylib */; };
+		0469AF6F1828DC2800DBF57A /* MapBox.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0469AF6E1828DC2800DBF57A /* MapBox.bundle */; };
+		0469AF791828F26800DBF57A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0469AF781828F26800DBF57A /* MapKit.framework */; };
+		0469AF7D1828F99400DBF57A /* airplane.png in Resources */ = {isa = PBXBuildFile; fileRef = 0469AF7C1828F99400DBF57A /* airplane.png */; };
+		0469AF80182914DB00DBF57A /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 0469AF7F182914DB00DBF57A /* menu.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +48,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04250B871829DAF700C0AFA0 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		04250B881829DAF700C0AFA0 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		04250B8A1829E20B00C0AFA0 /* search_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search_black.png; sourceTree = "<group>"; };
+		04250B8F1829F52D00C0AFA0 /* SideBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideBarViewController.h; sourceTree = "<group>"; };
+		04250B901829F52D00C0AFA0 /* SideBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideBarViewController.m; sourceTree = "<group>"; };
+		04250B921829F92900C0AFA0 /* search2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search2.png; sourceTree = "<group>"; };
+		04250B941829FA1B00C0AFA0 /* car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car.png; sourceTree = "<group>"; };
+		04250B961829FABE00C0AFA0 /* wolf-cartoon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wolf-cartoon.png"; sourceTree = "<group>"; };
 		0469AF2A1828DB3D00DBF57A /* parker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = parker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0469AF2D1828DB3D00DBF57A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0469AF2F1828DB3D00DBF57A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -47,12 +69,20 @@
 		0469AF401828DB3D00DBF57A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0469AF421828DB3D00DBF57A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		0469AF431828DB3D00DBF57A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		0469AF451828DB3D00DBF57A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0469AF4B1828DB3D00DBF57A /* parkerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = parkerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0469AF4C1828DB3D00DBF57A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		0469AF541828DB3D00DBF57A /* parkerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "parkerTests-Info.plist"; sourceTree = "<group>"; };
 		0469AF561828DB3D00DBF57A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0469AF581828DB3D00DBF57A /* parkerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = parkerTests.m; sourceTree = "<group>"; };
+		0469AF621828DB4B00DBF57A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		0469AF641828DB5300DBF57A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0469AF661828DB6100DBF57A /* MapBox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapBox.framework; path = ../../../../Downloads/MapBox.framework; sourceTree = "<group>"; };
+		0469AF681828DBA600DBF57A /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		0469AF6A1828DBAB00DBF57A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		0469AF6E1828DC2800DBF57A /* MapBox.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = MapBox.bundle; path = ../../../../Downloads/MapBox.framework/Versions/A/Resources/MapBox.bundle; sourceTree = "<group>"; };
+		0469AF781828F26800DBF57A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		0469AF7C1828F99400DBF57A /* airplane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = airplane.png; path = ../airplane.png; sourceTree = "<group>"; };
+		0469AF7F182914DB00DBF57A /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +90,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0469AF791828F26800DBF57A /* MapKit.framework in Frameworks */,
+				0469AF6B1828DBAB00DBF57A /* libz.dylib in Frameworks */,
+				0469AF691828DBA600DBF57A /* libsqlite3.dylib in Frameworks */,
+				0469AF671828DB6100DBF57A /* MapBox.framework in Frameworks */,
+				0469AF651828DB5300DBF57A /* QuartzCore.framework in Frameworks */,
+				0469AF631828DB4B00DBF57A /* CoreLocation.framework in Frameworks */,
 				0469AF301828DB3D00DBF57A /* CoreGraphics.framework in Frameworks */,
 				0469AF321828DB3D00DBF57A /* UIKit.framework in Frameworks */,
 				0469AF2E1828DB3D00DBF57A /* Foundation.framework in Frameworks */,
@@ -86,6 +122,8 @@
 				0469AF521828DB3D00DBF57A /* parkerTests */,
 				0469AF2C1828DB3D00DBF57A /* Frameworks */,
 				0469AF2B1828DB3D00DBF57A /* Products */,
+				0469AF7E1828F99D00DBF57A /* Images */,
+				0469AF6E1828DC2800DBF57A /* MapBox.bundle */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +139,12 @@
 		0469AF2C1828DB3D00DBF57A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0469AF781828F26800DBF57A /* MapKit.framework */,
+				0469AF6A1828DBAB00DBF57A /* libz.dylib */,
+				0469AF681828DBA600DBF57A /* libsqlite3.dylib */,
+				0469AF661828DB6100DBF57A /* MapBox.framework */,
+				0469AF641828DB5300DBF57A /* QuartzCore.framework */,
+				0469AF621828DB4B00DBF57A /* CoreLocation.framework */,
 				0469AF2D1828DB3D00DBF57A /* Foundation.framework */,
 				0469AF2F1828DB3D00DBF57A /* CoreGraphics.framework */,
 				0469AF311828DB3D00DBF57A /* UIKit.framework */,
@@ -112,12 +156,15 @@
 		0469AF331828DB3D00DBF57A /* parker */ = {
 			isa = PBXGroup;
 			children = (
+				04250B871829DAF700C0AFA0 /* SWRevealViewController.h */,
+				04250B881829DAF700C0AFA0 /* SWRevealViewController.m */,
 				0469AF3C1828DB3D00DBF57A /* AppDelegate.h */,
 				0469AF3D1828DB3D00DBF57A /* AppDelegate.m */,
 				0469AF3F1828DB3D00DBF57A /* Main.storyboard */,
+				04250B8F1829F52D00C0AFA0 /* SideBarViewController.h */,
+				04250B901829F52D00C0AFA0 /* SideBarViewController.m */,
 				0469AF421828DB3D00DBF57A /* ViewController.h */,
 				0469AF431828DB3D00DBF57A /* ViewController.m */,
-				0469AF451828DB3D00DBF57A /* Images.xcassets */,
 				0469AF341828DB3D00DBF57A /* Supporting Files */,
 			);
 			path = parker;
@@ -150,6 +197,20 @@
 				0469AF551828DB3D00DBF57A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0469AF7E1828F99D00DBF57A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				04250B961829FABE00C0AFA0 /* wolf-cartoon.png */,
+				04250B941829FA1B00C0AFA0 /* car.png */,
+				04250B921829F92900C0AFA0 /* search2.png */,
+				04250B8A1829E20B00C0AFA0 /* search_black.png */,
+				0469AF7F182914DB00DBF57A /* menu.png */,
+				0469AF7C1828F99400DBF57A /* airplane.png */,
+			);
+			name = Images;
+			path = parker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,9 +289,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0469AF461828DB3D00DBF57A /* Images.xcassets in Resources */,
+				04250B951829FA1B00C0AFA0 /* car.png in Resources */,
+				0469AF6F1828DC2800DBF57A /* MapBox.bundle in Resources */,
+				0469AF80182914DB00DBF57A /* menu.png in Resources */,
 				0469AF381828DB3D00DBF57A /* InfoPlist.strings in Resources */,
 				0469AF411828DB3D00DBF57A /* Main.storyboard in Resources */,
+				0469AF7D1828F99400DBF57A /* airplane.png in Resources */,
+				04250B971829FABE00C0AFA0 /* wolf-cartoon.png in Resources */,
+				04250B931829F92900C0AFA0 /* search2.png in Resources */,
+				04250B8B1829E20B00C0AFA0 /* search_black.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +319,8 @@
 				0469AF441828DB3D00DBF57A /* ViewController.m in Sources */,
 				0469AF3E1828DB3D00DBF57A /* AppDelegate.m in Sources */,
 				0469AF3A1828DB3D00DBF57A /* main.m in Sources */,
+				04250B911829F52D00C0AFA0 /* SideBarViewController.m in Sources */,
+				04250B891829DAF700C0AFA0 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,9 +447,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/mac/Downloads,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "parker/parker-Prefix.pch";
 				INFOPLIST_FILE = "parker/parker-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -391,9 +465,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/mac/Downloads,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "parker/parker-Prefix.pch";
 				INFOPLIST_FILE = "parker/parker-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -460,6 +539,7 @@
 				0469AF5E1828DB3D00DBF57A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0469AF5F1828DB3D00DBF57A /* Build configuration list for PBXNativeTarget "parkerTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +548,7 @@
 				0469AF611828DB3D00DBF57A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
